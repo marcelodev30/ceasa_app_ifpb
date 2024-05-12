@@ -17,9 +17,9 @@ class Page01 extends StatelessWidget {
           const SafeArea(
             child: Column(
               children: [
-                SizedBox(height: 70),
+                SizedBox(height: 68),
                 Text(
-                  'Quem Você Ê ?',
+                  'Quem é você?',
                   style: TextStyle(fontSize: 50, color: Colors.white),
                 )
               ],
@@ -46,8 +46,8 @@ class Page01 extends StatelessWidget {
                             builder: (context) => const HomeComercioPage()));
                   },
                   child: Container(
-                    width: 290,
-                    height: 290,
+                    width: 289,
+                    height: 288,
                     padding: const EdgeInsets.all(10),
                     decoration: BoxDecoration(
                         color: const Color.fromARGB(55, 3, 69, 183),
@@ -67,15 +67,15 @@ class Page01 extends StatelessWidget {
                     ),
                   ),
                 ),
-                const SizedBox(height: 20),
+                const SizedBox(height: 17),
                 GestureDetector(
                   onTap: () => Navigator.push(
                       context,
                       MaterialPageRoute(
                           builder: (context) => const SignInPage())),
                   child: Container(
-                    width: 290,
-                    height: 290,
+                    width: 280,
+                    height: 288,
                     padding: const EdgeInsets.all(10),
                     decoration: BoxDecoration(
                         color: const Color.fromARGB(55, 3, 69, 183),

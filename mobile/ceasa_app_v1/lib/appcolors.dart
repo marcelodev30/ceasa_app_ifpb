@@ -7,7 +7,7 @@ class AppColors {
   static Color ruby = const Color.fromARGB(255, 121, 33, 47);
   static Color vanilla = const Color.fromARGB(255, 217, 205, 173);
   static Color buff = const Color.fromARGB(255, 247, 219, 141);
-  static Color wi = const Color.fromARGB(255, 251, 251, 251);
+  static Color white = const Color.fromARGB(255, 251, 251, 251);
   static Color bossanava = const Color.fromARGB(255, 90, 66, 92);
   static Color bokaraGrey = const Color.fromARGB(255, 28,26,24);
   static Color midnightBlue = const Color.fromARGB(255, 27, 51, 100);
